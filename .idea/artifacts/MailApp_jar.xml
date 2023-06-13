@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MailApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MailApp_jar</output-path>
+    <root id="archive" name="MailApp.jar">
+      <element id="module-output" name="MailApp" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/19.0.2.1/javafx-fxml-19.0.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/19.0.2.1/javafx-fxml-19.0.2.1-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-web/19.0.2.1/javafx-web-19.0.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-web/19.0.2.1/javafx-web-19.0.2.1-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-media/19.0.2.1/javafx-media-19.0.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-media/19.0.2.1/javafx-media-19.0.2.1-mac.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/javax/activation/activation/1.1/activation-1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

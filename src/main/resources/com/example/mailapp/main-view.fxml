@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mailapp.MainController">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="400.0" prefWidth="600.0">
+         <left>
+            <VBox fillWidth="false" prefHeight="400.0" prefWidth="120.0" style="-fx-background-color: #eddfec; -fx-border-color: #dbcedb;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="buttonSendMail" mnemonicParsing="false" onAction="#onSendMailButtonClick" prefHeight="60.0" prefWidth="120.0" style="-fx-background-color: #eddfec;" text="Send mail" textFill="#6b575e">
+                     <font>
+                        <Font name="Galvji" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="buttonReceiveMail" layoutX="11.0" layoutY="28.0" mnemonicParsing="false" onAction="#onReceiveMailButtonClick" prefHeight="60.0" prefWidth="120.0" style="-fx-background-color: #eddfec;" text="Receive mail" textFill="#6b575e">
+                     <font>
+                        <Font name="Galvji" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="buttonLogIn" layoutX="11.0" layoutY="71.0" mnemonicParsing="false" onAction="#onLogInButtonClick" prefHeight="60.0" prefWidth="120.0" style="-fx-background-color: #eddfec;" text="Log in" textFill="#6b575e">
+                     <font>
+                        <Font name="Galvji" size="15.0" />
+                     </font>
+                  </Button>
+                  <Label text="Using Gmails SMTP server" textFill="#4d4d4d">
+                     <font>
+                        <Font name="SansSerif Italic" size="9.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="3.0" top="205.0" />
+                     </VBox.margin></Label>
+               </children></VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
